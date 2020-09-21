@@ -7,4 +7,47 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), 624 bytes | 312.00 KiB/s, done.
 (base) MacBook:Computational-Social-Science-Training-Program-master Vena$ cd Computational-Social-Science-Projects/
 (base) MacBook:Computational-Social-Science-Projects Vena$ mkdir Project-1
-(base) MacBook:Computational-Social-Science-Projects Vena$ 
+(base) MacBook:Computational-Social-Science-Projects Vena$Last login: Sun Sep 20 16:07:14 on ttys000
+(base) MacBook:~ Vena$ cd Desktop/Computational-Social-Science-Training-Program-master/
+(base) MacBook:Computational-Social-Science-Training-Program-master Vena$ git clone https://github.com/ElizabethBreen/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 624 bytes | 312.00 KiB/s, done.
+(base) MacBook:Computational-Social-Science-Training-Program-master Vena$ cd Computational-Social-Science-Projects/
+(base) MacBook:Computational-Social-Science-Projects Vena$ mkdir Project-1
+(base) MacBook:Computational-Social-Science-Projects Vena$ vim text_file.txt
+(base) MacBook:Computational-Social-Science-Projects Vena$ git add *
+(base) MacBook:Computational-Social-Science-Projects Vena$ git commit -m "Adding file of commands for Project 1"
+[master 5f59db4] Adding file of commands for Project 1
+ 1 file changed, 10 insertions(+)
+ create mode 100644 text_file.txt
+(base) MacBook:Computational-Social-Science-Projects Vena$ git push
+Username for 'https://github.com': ElizabethBreen
+Password for 'https://ElizabethBreen@github.com': 
+remote: Invalid username or password'.
+(base) MacBook:Computational-Social-Science-Projects Vena$ git push
+Username for 'https://github.com': ElizabethBreen
+Password for 'https://ElizabethBreen@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 589 bytes | 589.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: error: GH007: Your push would publish a private email address.
+remote: You can make your email public or disable this protection by visiting:
+remote: http://github.com/settings/emails
+To https://github.com/ElizabethBreen/Computational-Social-Science-Projects.git
+ ! [remote rejected] master -> master (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/ElizabethBreen/Computational-Social-Science-Projects.git'
+(base) MacBook:Computational-Social-Science-Projects Vena$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 589 bytes | 589.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ElizabethBreen/Computational-Social-Science-Projects.git
+   8375207..5f59db4  master -> master 
